@@ -3,7 +3,6 @@
 </p>
 
 
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakibdev2-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&repeat=true&width=800&height=50&lines=git+add+.;git+commit+-m+%22🚀+Pushing+new+features!%22;git+push+origin+main" alt="Coding Typing Animation" />
 </p>
