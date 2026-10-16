@@ -13,6 +13,4 @@
 </p>
 
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shakibdev2-source&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+- **Multi-Factor KeyFile Authentication:** Dual-layer security requiring both a complex master passphrase and a local hardware-bound `.key` file.
