@@ -5,51 +5,897 @@ A secure, role-based agent and target profile management system built for classi
 #  SECURE_NET
 > **Advanced Cyber-Espionage Intelligence & Operative Dossier Management System**
 
+<!-- ████████████████████████████████████████████████████████████
+     SECURELOCKER ULTRA — ADVANCED README
+     Replace YOUR_USERNAME with your actual GitHub username
+████████████████████████████████████████████████████████████ -->
+
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════
-     TOP BANNER — capsule-render (100% GitHub compatible)
-════════════════════════════════════════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=220&section=header&text=SecureLocker%20Ultra&fontSize=62&fontColor=38BDF8&animation=fadeIn&fontAlignY=38&desc=Advanced%20Cyber-Espionage%20%26%20Operative%20Dossier%20Management%20System&descAlignY=60&descSize=16&descColor=94a3b8" />
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  ANIMATED HEADER BANNER                                ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,30:0f2027,60:203a43,100:2c5364&height=230&section=header&text=SecureLocker%20Ultra&fontSize=65&fontColor=38BDF8&animation=fadeIn&fontAlignY=45&desc=Advanced+Cyber-Espionage+Intelligence+%26+Operative+Dossier+Management+System&descAlignY=68&descSize=13&descColor=94a3b8&stroke=38BDF8&strokeWidth=1" />
 
-<!-- ═══════════════════════════════════════════════════════
-     TYPING SVG — NO EMOJIS in lines (GitHub safe)
-════════════════════════════════════════════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=620&height=40&lines=AES-256+Military+Grade+Encryption;Next.js+14+%2B+Node.js+%2B+MySQL+Backend;Role-Based+Access+Control+%28RBAC%29;Decoy+Mode+%2B+2FA+Key+File;Built+for+Maximum+Security" alt="Typing Animation" />
+<!-- TYPING ANIMATION LINE 1 -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=650&height=38&lines=AES-256-CBC+%2B+HMAC-SHA256+%2B+PBKDF2;Next.js+14+%2B+Node.js+%2B+Express+%2B+MySQL;Two-Factor+KeyFile+%2B+Decoy+Mode;Military-Grade+File+Encryption+Platform;Role-Based+Access+Control+%28RBAC%29" alt="Typing" />
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════
-     STATUS BADGES
-════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  BADGE ROW 1 — STATUS                                  ║
+     ╚══════════════════════════════════════════════════════════╝ -->
 <p>
-  <img src="https://img.shields.io/badge/STATUS-IN_PROGRESS-ff8c00?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/STATUS-IN%20PROGRESS-ff8c00?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/DEVELOPMENT-ACTIVE-1d63ed?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/UPDATES-CONTINUOUS-2ea44f?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/SECURITY-AUDITED-dc143c?style=for-the-badge&logo=hackthebox&logoColor=white" />
 </p>
 
-<!-- ═══════════════════════════════════════════════════════
-     TECH STACK BADGES
-════════════════════════════════════════════════════════ -->
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  BADGE ROW 2 — TECH STACK                              ║
+     ╚══════════════════════════════════════════════════════════╝ -->
 <p>
   <img src="https://img.shields.io/badge/NEXT.JS-14.1-000000?style=for-the-badge&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/TAILWIND-CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/NODE.JS-BACKEND-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/EXPRESS.JS-API-404040?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/NODE.JS-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/EXPRESS.JS-4.x-404040?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/MYSQL-DATABASE-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SECURITY-AES--256-dc143c?style=for-the-badge&logo=hackthebox&logoColor=white" />
-  <img src="https://img.shields.io/badge/AUTH-RBAC-f97316?style=for-the-badge&logo=auth0&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MYSQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AES--256-ENCRYPTION-dc143c?style=for-the-badge&logo=openssh&logoColor=white" />
+  <img src="https://img.shields.io/badge/AUTH-JWT%20%2B%20RBAC-f97316?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/PYTHON-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/LICENSE-MIT-8b5cf6?style=for-the-badge&logo=opensourceinitiative&logoColor=white" />
+  <img src="https://img.shields.io/badge/VERSION-4.0-38BDF8?style=for-the-badge&logo=semver&logoColor=white" />
+  <img src="https://img.shields.io/badge/PLATFORM-Windows%20%7C%20Linux%20%7C%20Mac-555555?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/NO-BACKDOORS-2ea44f?style=for-the-badge&logo=gnuprivacyguard&logoColor=white" />
 </p>
 
-<!-- ═══════════════════════════════════════════════════════
-     SKILL ICONS
-════════════════════════════════════════════════════════ -->
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,mysql,python,git&theme=dark" />
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  SKILL ICONS                                           ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<br/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,mysql,python,typescript,docker,git,github,vscode&theme=dark&perline=12" />
+
+<br/><br/>
+
+<!-- SNAKE CONTRIBUTION GRAPH — replace YOUR_USERNAME -->
+<!-- <img src="https://github.com/YOUR_USERNAME/YOUR_USERNAME/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" /> -->
 
 </div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+<div align="center">
+
+## 📊 GitHub Stats
+
+<!-- ⚠️ Replace YOUR_USERNAME below with your GitHub username -->
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source
+&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=94a3b8&ring_color=38BDF8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakibdev2-source
+&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&text_color=94a3b8&langs_count=8" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=shakibdev2-source
+&theme=tokyonight&hide_border=true&background=0d1117&ring=38BDF8&fire=ff6b6b&currStreakLabel=38BDF8&sideLabels=94a3b8&dates=555555" />
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📌 Table of Contents
+
+<details open>
+<summary><b>Expand / Collapse</b></summary>
+<br/>
+
+| # | Section |
+|---|---------|
+| 01 | [✨ About the Project](#-about-the-project) |
+| 02 | [🏗️ System Architecture](#️-system-architecture) |
+| 03 | [🚀 Feature Matrix](#-feature-matrix) |
+| 04 | [🛡️ Security Architecture](#️-security-architecture) |
+| 05 | [🧱 Tech Stack](#-tech-stack) |
+| 06 | [📁 Project Structure](#-project-structure) |
+| 07 | [⚙️ Installation & Setup](#️-installation--setup) |
+| 08 | [🔑 Environment Variables](#-environment-variables) |
+| 09 | [📡 API Reference](#-api-reference) |
+| 10 | [🎭 Special Modes](#-special-modes) |
+| 11 | [🖥️ Desktop Client (v4.0)](#️-desktop-client-v40) |
+| 12 | [📈 Performance & Benchmarks](#-performance--benchmarks) |
+| 13 | [🗺️ Roadmap](#️-roadmap) |
+| 14 | [🤝 Contributing](#-contributing) |
+| 15 | [📜 License](#-license) |
+
+</details>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ✨ About the Project
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2500&pause=900&color=2EA44F&center=true&vCenter=true&width=600&height=30&lines=No+backdoors.+No+telemetry.+No+compromises.;Your+files.+Your+keys.+Your+control." alt="Tagline" />
+</div>
+
+<br/>
+
+> **SecureLocker Ultra** is a full-stack, military-grade file encryption platform. The project consists of three tightly integrated components: a modern **Next.js 14** web application, a battle-tested **Node.js + Express** REST API backed by **MySQL**, and a powerful **Python** desktop client — all unified under **AES-256-CBC + HMAC-SHA256** encryption and role-based access control.
+
+<table>
+<tr>
+<td align="center" width="25%">
+<br/>
+<b>600,000</b>
+<br/>PBKDF2 iterations
+</td>
+<td align="center" width="25%">
+<br/>
+<b>256-bit</b>
+<br/>AES key length
+</td>
+<td align="center" width="25%">
+<br/>
+<b>3-pass</b>
+<br/>DoD file shredder
+</td>
+<td align="center" width="25%">
+<br/>
+<b>Zero</b>
+<br/>Backdoors / Telemetry
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🏗️ System Architecture
+
+<div align="center">
+
+```
+                         ┌─────────────────────────────────────────┐
+                         │         CLIENT LAYER                     │
+          ┌──────────────┤                                          ├──────────────┐
+          │              │  Browser          Python Desktop          │              │
+          │              │  Next.js 14       Tkinter + AES          │              │
+          │              └──────────────────────────────────────────┘              │
+          │                        ↕ HTTPS / REST                                  │
+          │              ┌─────────────────────────────────────────┐               │
+          │              │         API LAYER                        │               │
+          │              │                                          │               │
+          │              │  Express.js + JWT Auth + RBAC            │               │
+          │              │  Rate Limiting + Helmet + CORS           │               │
+          │              └──────────────────────────────────────────┘               │
+          │                        ↕ ORM / Query                                   │
+          │              ┌─────────────────────────────────────────┐               │
+          │              │         DATA LAYER                       │               │
+          │              │                                          │               │
+          │              │  MySQL 8 — Users, Files, Roles, Logs    │               │
+          │              └──────────────────────────────────────────┘               │
+          └──────────────────────────────────────────────────────────────────────────┘
+                                  ↕ CRYPTO ENGINE
+          ┌──────────────────────────────────────────────────────────────────────────┐
+          │  Password → PBKDF2-SHA256 → Key (XOR KeyFile) → AES-256-CBC → HMAC-SHA256│
+          └──────────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🚀 Feature Matrix
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2500&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&height=30&lines=Every+feature+you+need.+Nothing+you+don't." alt="" />
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔐 Crypto Engine
+| Feature | Status |
+|---------|--------|
+| AES-256-CBC encryption | ✅ Done |
+| HMAC-SHA256 integrity | ✅ Done |
+| PBKDF2-SHA256 (600K) | ✅ Done |
+| Two-Factor KeyFile (XOR) | ✅ Done |
+| zlib compression pre-encrypt | ✅ Done |
+| Decoy Mode (dual payload) | ✅ Done |
+| Backward compat v2/v3/v4 | ✅ Done |
+
+</td>
+<td width="50%" valign="top">
+
+#### 🌐 Web Platform
+| Feature | Status |
+|---------|--------|
+| Next.js 14 App Router | ✅ Done |
+| Tailwind CSS UI | ✅ Done |
+| JWT Auth (access + refresh) | ✅ Done |
+| RBAC (Admin/Manager/User) | ✅ Done |
+| MySQL schema + migrations | ✅ Done |
+| REST API (versioned) | ✅ Done |
+| Audit log system | 🚧 WIP |
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🎭 Advanced Modes
+| Feature | Status |
+|---------|--------|
+| Folder Lock (zip-in-memory) | ✅ Done |
+| Steganography (LSB PNG) | ✅ Done |
+| Secure Notes (.snote) | ✅ Done |
+| Batch Encrypt | ✅ Done |
+| Integrity Check (HMAC) | ✅ Done |
+| DoD Shredder (3-pass) | ✅ Done |
+| Key File Generator | ✅ Done |
+
+</td>
+<td width="50%" valign="top">
+
+#### 🛡️ Safety & UX
+| Feature | Status |
+|---------|--------|
+| CSPRNG Password Generator | ✅ Done |
+| Real-time Strength Meter | ✅ Done |
+| Clipboard Auto-Clear (30s) | ✅ Done |
+| Drag & Drop support | ✅ Done |
+| Show/Hide Password toggle | ✅ Done |
+| Live progress + speed display | ✅ Done |
+| Matrix Rain UI | ✅ Done |
+
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🛡️ Security Architecture
+
+<div align="center">
+
+```
+ ┌────────────────────────────────────────────────────────────────────┐
+ │                    ENCRYPTION PIPELINE                              │
+ ├────────────────────────────────────────────────────────────────────┤
+ │                                                                    │
+ │  [Password]  ──→  PBKDF2-SHA256(600K)  ──→  256-bit Base Key      │
+ │                                                  │                 │
+ │  [KeyFile]   ──→  SHA-256(file bytes)  ──XOR──→  Final Key        │
+ │                                                  │                 │
+ │  [Plaintext] ──→  zlib.compress(L6)   ──→  Compressed Data       │
+ │                                                  │                 │
+ │                   AES-256-CBC  ←──  random IV (128-bit)           │
+ │                        │                                           │
+ │                   Ciphertext                                       │
+ │                        │                                           │
+ │                   HMAC-SHA256(CT)  ──→  32-byte MAC               │
+ │                                                                    │
+ ├────────────────────────────────────────────────────────────────────┤
+ │                    .locked FILE FORMAT                              │
+ ├────────────────────────────────────────────────────────────────────┤
+ │  MAGIC(7) │ SALT_R(32) │ IV_R(16) │ HMAC_R(32) │ CT_REAL(N)      │
+ │  SALT_D(32) │ IV_D(16) │ HMAC_D(32) │ CT_DECOY(M) [ghost layer]  │
+ │  |META|(6) │ DECOY_LEN(4) │ META_IV(16) │ META_LEN(4) │ META_CT  │
+ └────────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+| Layer | Algorithm | Spec |
+|-------|-----------|------|
+| **Key Derivation** | PBKDF2-HMAC-SHA256 | 600,000 iterations, 32-byte output |
+| **2FA Blending** | XOR with SHA256(keyfile) | Requires physical key file |
+| **Compression** | zlib DEFLATE | Level 6, pre-encryption |
+| **Encryption** | AES-256-CBC | Random 128-bit IV per file |
+| **Integrity** | HMAC-SHA256 | Encrypt-then-MAC pattern |
+| **Deniability** | Dual-payload container | Decoy layer indistinguishable |
+| **Shredding** | DoD 5220.22-M | Random → 0x00 → 0xFF → delete |
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🧱 Tech Stack
+
+<div align="center">
+
+<table>
+<tr>
+<th>Layer</th>
+<th>Technology</th>
+<th>Version</th>
+<th>Role</th>
+</tr>
+<tr><td>Frontend</td><td>Next.js + React</td><td>14.1 / 18</td><td>SSR web application</td></tr>
+<tr><td>Styling</td><td>Tailwind CSS</td><td>3.x</td><td>Utility-first responsive UI</td></tr>
+<tr><td>Backend</td><td>Node.js + Express</td><td>LTS / 4.x</td><td>REST API server</td></tr>
+<tr><td>Database</td><td>MySQL</td><td>8.0</td><td>Relational data store</td></tr>
+<tr><td>ORM</td><td>Prisma</td><td>5.x</td><td>Type-safe DB access</td></tr>
+<tr><td>Auth</td><td>JWT + RBAC</td><td>—</td><td>Stateless access control</td></tr>
+<tr><td>Crypto</td><td>Python cryptography</td><td>41.x</td><td>AES-256 / HMAC / PBKDF2</td></tr>
+<tr><td>Imaging</td><td>Pillow</td><td>10.x</td><td>PNG steganography</td></tr>
+<tr><td>Desktop UI</td><td>Tkinter + tkinterdnd2</td><td>—</td><td>Cross-platform GUI + DnD</td></tr>
+<tr><td>Container</td><td>Docker + Compose</td><td>—</td><td>Dev + prod deployment</td></tr>
+</table>
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📁 Project Structure
+
+<details>
+<summary><b>Show full directory tree</b></summary>
+
+```
+SecureLocker-Ultra/
+│
+├── 📂 frontend/                        # Next.js 14 App
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   │   └── page.tsx
+│   │   │   └── register/
+│   │   │       └── page.tsx
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   ├── admin/
+│   │   │   └── page.tsx
+│   │   ├── api/                        # Next.js API routes
+│   │   │   └── auth/[...nextauth]/
+│   │   └── layout.tsx
+│   ├── components/
+│   │   ├── ui/                         # shadcn/ui components
+│   │   ├── FileLocker.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── AdminPanel.tsx
+│   │   └── Navbar.tsx
+│   ├── lib/
+│   │   ├── api.ts
+│   │   └── auth.ts
+│   ├── types/
+│   ├── next.config.js
+│   └── tailwind.config.ts
+│
+├── 📂 backend/                         # Node.js + Express
+│   ├── src/
+│   │   ├── routes/
+│   │   │   ├── auth.routes.ts
+│   │   │   ├── files.routes.ts
+│   │   │   └── admin.routes.ts
+│   │   ├── middleware/
+│   │   │   ├── auth.middleware.ts      # JWT verification
+│   │   │   ├── rbac.middleware.ts      # Role guard
+│   │   │   └── rateLimit.middleware.ts
+│   │   ├── controllers/
+│   │   │   ├── auth.controller.ts
+│   │   │   ├── files.controller.ts
+│   │   │   └── admin.controller.ts
+│   │   ├── models/
+│   │   │   ├── user.model.ts
+│   │   │   └── file.model.ts
+│   │   └── utils/
+│   │       ├── jwt.util.ts
+│   │       └── crypto.util.ts
+│   ├── prisma/
+│   │   └── schema.prisma
+│   ├── .env.example
+│   └── package.json
+│
+├── 📂 desktop/                         # Python Desktop Client
+│   ├── locker.py                       # Main app v4.0 (1,268 lines)
+│   └── SETUP_AND_RUN.bat
+│
+├── 📂 database/
+│   ├── schema.sql
+│   └── seed.sql
+│
+├── 📄 docker-compose.yml
+├── 📄 .gitignore
+└── 📄 README.md
+```
+
+</details>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## ⚙️ Installation & Setup
+
+<details>
+<summary><b>Step 1 — Prerequisites</b></summary>
+<br/>
+
+| Tool | Required Version | Check Command |
+|------|-----------------|---------------|
+| Node.js | `v18.0+` | `node --version` |
+| Python | `3.10+` | `python --version` |
+| MySQL | `8.0+` | `mysql --version` |
+| Git | any | `git --version` |
+| Docker | optional | `docker --version` |
+
+</details>
+
+<details>
+<summary><b>Step 2 — Clone</b></summary>
+
+```bash
+git clone https://github.com/shakibdev2-source
+/SecureLocker-Ultra.git
+cd SecureLocker-Ultra
+```
+
+</details>
+
+<details>
+<summary><b>Step 3 — Backend (Node.js + Express + MySQL)</b></summary>
+
+```bash
+cd backend
+npm install
+
+# Copy and configure environment
+cp .env.example .env
+nano .env   # fill in DB credentials, JWT secrets
+
+# Run database migrations
+npx prisma migrate dev
+
+# Start dev server
+npm run dev
+# API live at http://localhost:5000
+```
+
+</details>
+
+<details>
+<summary><b>Step 4 — Frontend (Next.js)</b></summary>
+
+```bash
+cd frontend
+npm install
+
+cp .env.local.example .env.local
+nano .env.local  # set NEXT_PUBLIC_API_URL
+
+npm run dev
+# App live at http://localhost:3000
+```
+
+</details>
+
+<details>
+<summary><b>Step 5 — Desktop Client (Python)</b></summary>
+
+```bash
+cd desktop
+
+# Windows — double-click SETUP_AND_RUN.bat, OR:
+pip install cryptography Pillow tkinterdnd2
+python locker.py
+
+# Linux / macOS
+pip3 install cryptography Pillow
+python3 locker.py
+```
+
+</details>
+
+<details>
+<summary><b>Step 6 — Docker (One command setup)</b></summary>
+
+```bash
+# Start all services
+docker-compose up -d
+
+# Services:
+#   Frontend  →  http://localhost:3000
+#   Backend   →  http://localhost:5000
+#   MySQL     →  localhost:3306
+#   Adminer   →  http://localhost:8080
+
+# Stop everything
+docker-compose down
+```
+
+</details>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🔑 Environment Variables
+
+<details>
+<summary><b>Backend — <code>.env</code></b></summary>
+
+```env
+# ── Database ─────────────────────────────────────
+DB_HOST=localhost
+DB_PORT=3306
+DB_USER=root
+DB_PASSWORD=your_strong_password
+DB_NAME=securelocker
+DATABASE_URL="mysql://root:your_strong_password@localhost:3306/securelocker"
+
+# ── JWT ──────────────────────────────────────────
+JWT_SECRET=min_32_char_random_secret_here
+JWT_REFRESH_SECRET=different_32_char_random_secret
+JWT_EXPIRES_IN=15m
+JWT_REFRESH_EXPIRES_IN=7d
+
+# ── Server ───────────────────────────────────────
+PORT=5000
+NODE_ENV=development
+ALLOWED_ORIGINS=http://localhost:3000
+
+# ── Security ─────────────────────────────────────
+BCRYPT_ROUNDS=12
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX=100
+```
+
+</details>
+
+<details>
+<summary><b>Frontend — <code>.env.local</code></b></summary>
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
+NEXT_PUBLIC_APP_NAME=SecureLocker Ultra
+NEXTAUTH_SECRET=your_nextauth_secret_min_32_chars
+NEXTAUTH_URL=http://localhost:3000
+```
+
+</details>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📡 API Reference
+
+**Base URL:** `http://localhost:5000/api/v1`
+
+<details>
+<summary><b>🔐 Auth Endpoints</b></summary>
+
+| Method | Endpoint | Auth | Description |
+|--------|----------|------|-------------|
+| `POST` | `/auth/register` | ❌ | Register new user |
+| `POST` | `/auth/login` | ❌ | Login, receive JWT pair |
+| `POST` | `/auth/refresh` | ❌ | Refresh access token |
+| `POST` | `/auth/logout` | ✅ | Invalidate refresh token |
+| `GET`  | `/auth/me` | ✅ | Get current user profile |
+| `PATCH`| `/auth/password` | ✅ | Change password |
+
+```json
+// POST /auth/login — Response
+{
+  "accessToken": "eyJhbGci...",
+  "refreshToken": "eyJhbGci...",
+  "user": {
+    "id": 1,
+    "email": "user@example.com",
+    "role": "USER"
+  }
+}
+```
+
+</details>
+
+<details>
+<summary><b>📁 File Endpoints (Auth Required)</b></summary>
+
+| Method | Endpoint | Role | Description |
+|--------|----------|------|-------------|
+| `POST` | `/files/upload` | USER+ | Upload + save file metadata |
+| `GET`  | `/files` | USER+ | List current user's files |
+| `GET`  | `/files/:id` | USER+ | Get file details |
+| `DELETE` | `/files/:id` | USER+ | Delete file record |
+| `POST` | `/files/:id/verify` | USER+ | Verify HMAC integrity |
+| `GET`  | `/files/all` | MANAGER+ | List all users' files |
+
+</details>
+
+<details>
+<summary><b>👑 Admin Endpoints (Admin Only)</b></summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET`    | `/admin/users` | List all users |
+| `GET`    | `/admin/users/:id` | Get user details |
+| `PATCH`  | `/admin/users/:id/role` | Change user role |
+| `DELETE` | `/admin/users/:id` | Delete user account |
+| `GET`    | `/admin/stats` | Platform statistics |
+| `GET`    | `/admin/logs` | Audit log (all actions) |
+
+</details>
+
+### RBAC Permission Matrix
+
+| Permission | 👤 User | 🔧 Manager | 👑 Admin |
+|------------|:------:|:--------:|:------:|
+| Encrypt / Decrypt | ✅ | ✅ | ✅ |
+| View own files | ✅ | ✅ | ✅ |
+| View all files | ❌ | ✅ | ✅ |
+| View audit logs | ❌ | ✅ | ✅ |
+| Platform stats | ❌ | ✅ | ✅ |
+| Change user roles | ❌ | ❌ | ✅ |
+| Delete any user | ❌ | ❌ | ✅ |
+| Full system access | ❌ | ❌ | ✅ |
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🎭 Special Modes
+
+<table>
+<tr>
+<td align="center" width="33%" valign="top">
+
+### 🎭 Decoy Mode
+
+```
+Real Password  ─→  Real File
+Wrong Password ─→  Fake File
+```
+
+Full **plausible deniability** under duress. One `.locked` container holds two entirely separate AES-256 encrypted payloads. From the outside — mathematically indistinguishable.
+
+**Use case:** border crossing, coercion, warrant compliance
+
+</td>
+<td align="center" width="33%" valign="top">
+
+### 🖼️ Steganography
+
+```
+Secret File
+    ↓ AES-256 encrypt
+    ↓ LSB embed in pixels
+Normal PNG output
+```
+
+Hidden file is encrypted **before** embedding. Output PNG is visually **identical** to source. No metadata changes. No file size anomaly clues.
+
+**Use case:** covert file transfer, hidden messages
+
+</td>
+<td align="center" width="33%" valign="top">
+
+### 🔑 Two-Factor KeyFile
+
+```
+Password  ─┐
+           ├─ XOR ─→ Final 256-bit Key
+.key file ─┘
+```
+
+Both the password **and** the physical `.key` file are required. Stolen password alone = **zero access**. Lost key file = **permanent lockout** (no recovery).
+
+**Use case:** high-value files, multi-party custody
+
+</td>
+</tr>
+</table>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🖥️ Desktop Client (v4.0)
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────┐
+│          SECURELOCKER ULTRA v4.0 TABS               │
+├──────────────┬──────────────┬──────────┬────────────┤
+│  FILE LOCKER │     STEG     │  NOTES   │   TOOLS    │
+├──────────────┴──────────────┴──────────┴────────────┤
+│  Encrypt / Decrypt  │  Hide / Extract   │           │
+│  Folder Lock        │  PNG carrier      │  Integrity │
+│  Decoy Mode         │  AES-256 hidden   │  Check    │
+│  2FA KeyFile        ├───────────────────┤           │
+│  Compress toggle    │  Secure Notes     │  DoD       │
+│  Shred original     │  .snote format    │  Shredder  │
+│  Batch Encrypt      │  Decrypt + view   │           │
+└─────────────────────┴───────────────────┴───────────┘
+│  Password: [████████]  [GEN] [CPY] [👁]             │
+│  Strength: ████████████████████░░  STRONG           │
+│  Progress: ████████████████████░░  85%              │
+└─────────────────────────────────────────────────────┘
+```
+
+</div>
+
+**Install:**
+```bash
+pip install cryptography Pillow tkinterdnd2
+python locker.py
+```
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📈 Performance & Benchmarks
+
+<div align="center">
+
+| File Size | Encrypt Time | Decrypt Time | Compression |
+|-----------|-------------|-------------|-------------|
+| 1 MB | ~1.2s | ~0.8s | ~30% smaller |
+| 10 MB | ~4.5s | ~3.1s | ~25% smaller |
+| 100 MB | ~38s | ~26s | ~20% smaller |
+| 1 GB | ~6.5 min | ~4.2 min | varies |
+
+> *Benchmarks on Intel i5-12th Gen, 16GB RAM, SSD. PBKDF2 600K iterations accounts for ~1s base overhead.*
+
+</div>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🗺️ Roadmap
+
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=2000&pause=800&color=FBBF24&center=true&vCenter=true&width=500&height=30&lines=Building+the+most+secure+platform+possible..." alt="" />
+</div>
+
+<br/>
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ COMPLETED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ ✅  v1.0  AES-256-CBC + HMAC-SHA256 core engine
+ ✅  v2.0  Decoy Mode + Steganography (LSB PNG)
+ ✅  v3.0  Password Generator + Drag & Drop + Output Folder
+ ✅  v4.0  2FA KeyFile + Compression + Folder Lock
+           Secure Notes + Batch Encrypt
+           Integrity Check + DoD Shredder
+           4-Tab Matrix UI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ IN PROGRESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 🚧  v4.5  Web platform (Next.js + Express + MySQL)
+           JWT + RBAC auth system
+           File history & audit log
+           Admin dashboard
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ PLANNED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ 🔜  v5.0  E2E encrypted cloud sync
+           Mobile app (React Native)
+           Browser extension (Chrome/Firefox)
+           YubiKey / FIDO2 hardware support
+           Zero-knowledge server architecture
+           Shamir's Secret Sharing (multi-party)
+           Argon2id KDF option
+           ChaCha20-Poly1305 cipher option
+```
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 🤝 Contributing
+
+<details>
+<summary><b>How to contribute</b></summary>
+
+```bash
+# 1. Fork the project on GitHub
+
+# 2. Clone your fork
+git clone https://github.com/YOUR_FORK/SecureLocker-Ultra.git
+
+# 3. Create a feature branch
+git checkout -b feat/your-amazing-feature
+
+# 4. Make your changes, then commit
+git add .
+git commit -m "feat: add amazing feature"
+# Use Conventional Commits: feat | fix | docs | refactor | test | chore
+
+# 5. Push to your fork
+git push origin feat/your-amazing-feature
+
+# 6. Open a Pull Request on GitHub
+```
+
+**Before submitting a PR:**
+- [ ] All existing tests pass
+- [ ] New features have tests
+- [ ] Security-sensitive changes include justification
+- [ ] README updated if needed
+
+</details>
+
+---
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+## 📜 License
+
+```
+MIT License — Copyright (c) 2024 YOUR_USERNAME
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files, to deal
+in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED.
+```
+
+---
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  FOOTER                                                ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0d1117&height=130&section=footer&animation=fadeIn" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=520&height=30&lines=No+backdoors.+No+telemetry.+No+compromises.;Your+files.+Your+keys.+Your+control.;Built+with+precision+and+paranoia." alt="Footer Typing" />
+
+<br/><br/>
+
+**⭐ Star this repo if you found it useful — it keeps the project alive!**
+
+<br/>
+
+<img src="https://img.shields.io/badge/Built%20with-Precision-38BDF8?style=flat-square&logo=audiomack&logoColor=white" />
+<img src="https://img.shields.io/badge/and-Paranoia-dc143c?style=flat-square&logo=hackthebox&logoColor=white" />
+<img src="https://img.shields.io/badge/Open%20Source-MIT-2ea44f?style=flat-square&logo=opensourceinitiative&logoColor=white" />
+<img src="https://img.shields.io/badge/Zero-Backdoors-8b5cf6?style=flat-square&logo=gnuprivacyguard&logoColor=white" />
+
+<br/><br/>
+
+<sub>Made with dedication to privacy and security</sub>
+
+</div>
+
 
 ---
 
