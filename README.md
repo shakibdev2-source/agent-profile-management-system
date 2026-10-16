@@ -5,7 +5,5 @@
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-38BDF8?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VERSION-0.1.0-orange?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/MAINTENANCE-YES-green?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakibdev2-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
 </p>
