@@ -7,10 +7,13 @@ A secure, role-based agent and target profile management system built for classi
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PROJECT-IN%20PROGRESS-yellow?style=for-the-badge&logo=git&logoColor=white&color=ffb100" alt="Project In Progress" />
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-blue?style=for-the-badge&logo=githubactions&logoColor=white" alt="Active Development" />
-  <img src="https://img.shields.io/badge/UPDATES-CONTINUOUSLY-orange?style=for-the-badge&logo=codeforces&logoColor=white" alt="Continuous Updates" />
-  <img src="https://img.shields.io/badge/BUILD-MAINTENANCE-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Build Maintenance" />
+  <img src="https://img.shields.io/badge/⚡_STATUS-IN_PROGRESS-ffb100?style=for-the-badge&logo=git&logoColor=white&color=ff8c00" alt="In Progress" />
+  <img src="https://img.shields.io/badge/🚀_DEVELOPMENT-ACTIVE-blue?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/🔄_UPDATES-CONTINUOUS-green?style=for-the-badge&logo=codeforces&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=🚀+Project+is+under+active+development!;⚡+New+features+are+being+continuously+added!;💻+Stay+tuned+for+upcoming+updates!" alt="Typing Animation" />
 </p>
 
 
