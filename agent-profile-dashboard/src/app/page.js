@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import TargetIdentity from "../components/TargetIdentity";
 import OperativeDetails from "../components/OperativeDetails";
 import PsychProfile from "../components/PsychProfile";
@@ -9,55 +9,32 @@ export default function Dashboard() {
   const [role, setRole] = useState("viewer");
   const [activeTab, setActiveTab] = useState("identity");
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const [dossier, setDossier] = useState({
-    identity: {
-      agent_id: "PHANTOM-00X",
-      full_name: "CLASSIFIED OPERATIVE",
-      nick_name: "VIPER",
-      gender: "Female",
-      date_of_birth: "1998-05-14",
-      place_of_birth: "Dhaka",
-      nationality: "Bangladeshi",
-      languages_spoken: "Bengali, English",
-      physical_build: "Athletic",
-      height: "5'7\"",
-      weight: "58 kg",
-      eye_color: "Dark Brown",
-      hair_color: "Black",
-      distinguishing_marks: "None",
-      profile_picture: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=400&auto=format&fit=crop"
-    },
-    operative: {
-      agent_title: "Elite Strike Commander",
-      rank: "ELITE STRIKE COMMANDER",
-      unit_division: "Cyber Warfare & Infiltration",
-      specialization: "COVERT OPS / NEURAL NET INFILTRATION",
-      clearance_level: "Level 5",
-      active_since: "2021-03-10",
-      field_status: "ACTIVE DEPLOYED",
-      known_aliases: "Echo-7",
-      last_known_location: "Sector 4 - Restricted Zone"
-    },
-    psychological: {
-      psych_evaluation: "High cognitive stability and absolute composure under extreme hostile pressure.",
-      stress_tolerance: "Tier 1 - Elite Maximum",
-      behavioral_tendencies: "Calculative and analytical",
-      risk_assessment: "Low Hazard"
-    },
-    users: [
-      { user_id: 1, username: "admin", role: "admin", created_at: "2026-10-15" },
-      { user_id: 2, username: "viewer", role: "viewer", created_at: "2026-10-15" }
-    ]
+    identity: null,
+    operative: null,
+    psychological: null,
+    users: []
   });
 
-  const [formData, setFormData] = useState({
-    full_name: dossier.identity.full_name,
-    rank: dossier.operative.rank,
-    specialization: dossier.operative.specialization,
-    field_status: dossier.operative.field_status,
-    last_known_location: dossier.operative.last_known_location
-  });
+  const [formData, setFormData] = useState({});
+
+  useEffect(() => {
+    fetch("http://localhost:5000/api/phantom/data")
+      .then((res) => res.json())
+      .then((data) => {
+        if (data) {
+          setDossier(data);
+          setFormData({
+            ...data.identity,
+            ...data.operative,
+            ...data.psychological
+          });
+        }
+      })
+      .catch((err) => console.log("Database connection error or backend offline:", err));
+  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -65,18 +42,23 @@ export default function Dashboard() {
   };
 
   const handleSaveChanges = () => {
-    setDossier((prev) => ({
-      ...prev,
-      identity: { ...prev.identity, full_name: formData.full_name },
-      operative: {
-        ...prev.operative,
-        rank: formData.rank,
-        specialization: formData.specialization,
-        field_status: formData.field_status,
-        last_known_location: formData.last_known_location
-      }
-    }));
-    setIsModalOpen(false);
+    setLoading(true);
+    fetch("http://localhost:5000/api/phantom/update", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData)
+    })
+      .then((res) => res.json())
+      .then(() => {
+        setLoading(false);
+        setIsModalOpen(false);
+        window.location.reload();
+      })
+      .catch((err) => {
+        setLoading(false);
+        alert("Failed to update database.");
+        setIsModalOpen(false);
+      });
   };
 
   return (
@@ -148,36 +130,32 @@ export default function Dashboard() {
         <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex justify-center items-center p-4">
           <div className="bg-[#121217] border border-amber-500/60 rounded-2xl p-6 md:p-8 w-full max-w-lg shadow-2xl relative">
             <h3 className="text-amber-500 font-extrabold text-base tracking-widest mb-4">
-              UPDATE TABLE RECORD (ADMIN ONLY)
+              UPDATE DATABASE RECORD (ADMIN ONLY)
             </h3>
             
             <div className="space-y-4 text-xs">
               <div>
                 <label className="text-zinc-400">Full Name:</label>
-                <input type="text" name="full_name" value={formData.full_name} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="full_name" value={formData.full_name || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Rank:</label>
-                <input type="text" name="rank" value={formData.rank} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="rank" value={formData.rank || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Specialization:</label>
-                <input type="text" name="specialization" value={formData.specialization} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="specialization" value={formData.specialization || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Field Status:</label>
-                <input type="text" name="field_status" value={formData.field_status} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
-              </div>
-              <div>
-                <label className="text-zinc-400">Last Known Location:</label>
-                <input type="text" name="last_known_location" value={formData.last_known_location} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="field_status" value={formData.field_status || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
               </div>
             </div>
 
             <div className="flex justify-end gap-3 mt-6">
               <button onClick={() => setIsModalOpen(false)} className="bg-zinc-800 text-zinc-300 px-5 py-2.5 rounded-xl text-xs font-bold">CANCEL</button>
-              <button onClick={handleSaveChanges} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold">
-                SAVE CHANGES
+              <button onClick={handleSaveChanges} disabled={loading} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold">
+                {loading ? "SAVING..." : "SAVE TO DATABASE"}
               </button>
             </div>
           </div>
