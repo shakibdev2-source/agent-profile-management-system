@@ -17,4 +17,4 @@
   <img src="https://img.shields.io/badge/ARCHITECTURE-MICROSERVICES-38BDF8?style=for-the-badge&logo=box&logoColor=black" />
   <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-ff8c00?style=for-the-badge&logo=git&logoColor=white" />
 </p>
-b
+b 96
