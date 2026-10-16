@@ -12,9 +12,4 @@
   © 2026 <b>SECURE_NET Intelligence Operations</b>. Classified & All Rights Reserved.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/SECURITY-END__TO__END__ENCRYPTED-00FF66?style=for-the-badge&logo=letsencrypt&logoColor=black" />
-  <img src="https://img.shields.io/badge/ARCHITECTURE-MICROSERVICES-38BDF8?style=for-the-badge&logo=box&logoColor=black" />
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-ff8c00?style=for-the-badge&logo=git&logoColor=white" />
-</p>
-b 96
+kjbhjkbhygh
