@@ -21,12 +21,12 @@ export default function SystemUsers({ users }) {
                   <td className="py-2 px-3 text-zinc-500">#{u.user_id}</td>
                   <td className="py-2 px-3 text-white font-bold">{u.username}</td>
                   <td className="py-2 px-3"><span className="bg-zinc-800 text-amber-400 px-2 py-0.5 rounded text-xs uppercase">{u.role}</span></td>
-                  <td className="py-2 px-3 text-zinc-400 text-xs">{u.created_at}</td>
+                  <td className="py-2 px-3 text-zinc-400 text-xs">{u.created_at || "N/A"}</td>
                 </tr>
               ))
             ) : (
               <tr>
-                <td colSpan="4" className="py-4 text-center text-zinc-500 text-xs">NO USERS FOUND IN DATABASE</td>
+                <td colSpan="4" className="py-6 text-center text-zinc-500 text-xs tracking-widest">NO USERS FOUND IN DATABASE</td>
               </tr>
             )}
           </tbody>
