@@ -72,20 +72,7 @@ The **Agent Profile Management System** is a high-clearance intelligence platfor
 ---
 
 ## 🤝 Contributing
-
-<details>
-<summary>💻 **Contribution Guide**</summary>
-
-```bash
-# 1. Fork the Repository
-
-# 2. Clone your fork
-git clone [https://github.com/shakibdev2-source/agent-profile-management-system.git](https://github.com/shakibdev2-source/agent-profile-management-system.git)
-
-# 3. Create a feature branch
-git checkout -b feat/your-tactical-feature
-
-# 4. Commit your changes
+shakib
 git commit -m "feat: add secure intelligence module"
 
 # 5. Push and open a Pull Request
