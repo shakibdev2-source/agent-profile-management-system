@@ -54,25 +54,6 @@ A secure, role-based agent and target profile management system built for classi
   <img src="https://img.shields.io/badge/NO-BACKDOORS-2ea44f?style=for-the-badge&logo=gnuprivacyguard&logoColor=white" />
 </p>
 
-<!-- ╔══════════════════════════════════════════════════════════╗
-     ║  SKILL ICONS                                           ║
-     ╚══════════════════════════════════════════════════════════╝ -->
-<br/>
-<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,nodejs,express,mysql,python,typescript,docker,git,github,vscode&theme=dark&perline=12" />
-
-<br/><br/>
-
-<!-- SNAKE CONTRIBUTION GRAPH — replace YOUR_USERNAME -->
-<!-- <img src="https://github.com/YOUR_USERNAME/YOUR_USERNAME/raw/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" /> -->
-
-</div>
-
----
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
-<div align="center">
-
 ## 📊 GitHub Stats
 
 <!-- ⚠️ Replace YOUR_USERNAME below with your GitHub username -->
