@@ -1,7 +1,27 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=800&size=34&duration=2000&pause=700&color=FF1E27&center=true&vCenter=true&repeat=true&width=1100&height=100&lines=%E2%9A%A0%EF%B8%8F+Actively+focusing+most+of+my+time+here!;%F0%9F%92%A5+Currently+in+early+stage+development.;%F0%9F%94%A7+Lots+of+features+and+updates+coming+soon!;" alt="Typing SVG" />
-</p>
-</p>
+<div align="center">
+
+  <!-- Advanced Animated Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10&height=120&section=header&text=🔥%20PROJECT%20IN%20ACTIVE%20DEVELOPMENT&fontSize=24&animation=fadeIn&fontColor=ffffff" width="100%" />
+
+  <br/>
+
+  <!-- Advanced Glowing Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Cascadia+Code&weight=800&size=32&duration=1800&pause=600&color=FF1E27&center=true&vCenter=true&repeat=true&width=1100&height=90&lines=%E2%9A%A0%EF%B8%8F+Actively+focusing+most+of+my+time+on+this+project!;%F0%9F%92%A5+Currently+in+early+stage+development...;%F0%9F%94%A7+Major+features+%26+updates+are+underway!;" alt="Typing SVG" />
+  </a>
+
+  <br/><br/>
+
+  <!-- Dynamic Status & Tech Badges -->
+  <img src="https://img.shields.io/badge/Status-Early_Stage-red?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Focus-Active_Development-orange?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Updates-Continuous-brightgreen?style=for-the-badge&logo=vibe" />
+
+  <br/><br/>
+  
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+</div>
 
 <!-- TYPING ANIMATION LINE 1 -->
 
