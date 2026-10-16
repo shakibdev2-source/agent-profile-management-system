@@ -13,4 +13,4 @@
 </p>
 
 
-- **Multi-Factor KeyFile Authentication:** Dual-layer security requiring both a complex master passphrase and a local hardware-bound `.key` file.
+- **DoD-Standard Secure Shredding:** Department of Defense (DoD 5220.22-M) multi-pass overwrite protocol for permanently wiping sensitive operative data.
