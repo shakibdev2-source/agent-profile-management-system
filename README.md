@@ -13,5 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,12,24,36&height=220&section=header&text=Agent+Profile+Management&fontSize=40&fontColor=38BDF8&animation=fadeIn&fontAlignY=40&desc=Advanced+Intelligence+%26+Operative+Dossier+System&descAlignY=65&descSize=14&descColor=94a3b8" />
+  <img src="https://img.shields.io/badge/SECURITY-END__TO__END__ENCRYPTED-00FF66?style=for-the-badge&logo=letsencrypt&logoColor=black" />
+  <img src="https://img.shields.io/badge/ARCHITECTURE-MICROSERVICES-38BDF8?style=for-the-badge&logo=box&logoColor=black" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-ff8c00?style=for-the-badge&logo=git&logoColor=white" />
 </p>
