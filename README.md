@@ -13,5 +13,5 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakibdev2-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shakibdev2-source&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
