@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import TargetIdentity from "../components/TargetIdentity";
 import OperativeDetails from "../components/OperativeDetails";
 import PsychProfile from "../components/PsychProfile";
@@ -9,7 +9,6 @@ export default function Dashboard() {
   const [role, setRole] = useState("viewer");
   const [activeTab, setActiveTab] = useState("identity");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [loading, setLoading] = useState(false);
 
   const [dossier, setDossier] = useState({
     identity: {
@@ -66,22 +65,18 @@ export default function Dashboard() {
   };
 
   const handleSaveChanges = () => {
-    setLoading(true);
-    setTimeout(() => {
-      setDossier((prev) => ({
-        ...prev,
-        identity: { ...prev.identity, full_name: formData.full_name },
-        operative: {
-          ...prev.operative,
-          rank: formData.rank,
-          specialization: formData.specialization,
-          field_status: formData.field_status,
-          last_known_location: formData.last_known_location
-        }
-      }));
-      setLoading(false);
-      setIsModalOpen(false);
-    }, 500);
+    setDossier((prev) => ({
+      ...prev,
+      identity: { ...prev.identity, full_name: formData.full_name },
+      operative: {
+        ...prev.operative,
+        rank: formData.rank,
+        specialization: formData.specialization,
+        field_status: formData.field_status,
+        last_known_location: formData.last_known_location
+      }
+    }));
+    setIsModalOpen(false);
   };
 
   return (
@@ -114,23 +109,6 @@ export default function Dashboard() {
       </header>
 
       <main className="relative z-10 max-w-5xl w-full mx-auto p-4 md:p-8 my-6">
-        
-        <div className="mb-6 bg-gradient-to-r from-red-950/40 via-black to-zinc-950 border border-red-900/50 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4 backdrop-blur-md shadow-lg">
-          <div className="flex items-center gap-3">
-            <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
-            <div>
-              <p className="text-[10px] text-zinc-400 tracking-widest uppercase">GLOBAL THREAT ASSESSMENT</p>
-              <p className="text-red-400 font-bold tracking-widest text-sm">ALPHA-CRITICAL</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="text-[10px] text-zinc-500">ENCRYPTION: AES-256-GCM</span>
-            <span className="bg-emerald-950/80 text-emerald-400 border border-emerald-800 text-[10px] px-2.5 py-1 rounded font-bold tracking-wider">
-              SECURE
-            </span>
-          </div>
-        </div>
-
         <nav className="flex flex-wrap gap-2 mb-8 border-b border-zinc-800 pb-4">
           <button 
             onClick={() => setActiveTab("identity")} 
@@ -159,29 +137,18 @@ export default function Dashboard() {
         </nav>
 
         <div className="animate-in fade-in duration-300">
-          {activeTab === "identity" && <TargetIdentity data={dossier.identity} />}
-          {activeTab === "operative" && <OperativeDetails data={dossier.operative} />}
-          {activeTab === "psych" && <PsychProfile data={dossier.psychological} />}
+          {activeTab === "identity" && <TargetIdentity data={dossier.identity} onEdit={() => setIsModalOpen(true)} role={role} />}
+          {activeTab === "operative" && <OperativeDetails data={dossier.operative} onEdit={() => setIsModalOpen(true)} role={role} />}
+          {activeTab === "psych" && <PsychProfile data={dossier.psychological} onEdit={() => setIsModalOpen(true)} role={role} />}
           {activeTab === "users" && <SystemUsers users={dossier.users} />}
         </div>
-
-        {role === "admin" && (
-          <div className="mt-8 flex justify-end">
-            <button 
-              onClick={() => setIsModalOpen(true)}
-              className="bg-amber-600 hover:bg-amber-500 text-black font-extrabold px-8 py-3 rounded-xl text-xs tracking-wider shadow-lg transition-all"
-            >
-              EDIT ACTIVE TABLE DATA
-            </button>
-          </div>
-        )}
       </main>
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex justify-center items-center p-4">
           <div className="bg-[#121217] border border-amber-500/60 rounded-2xl p-6 md:p-8 w-full max-w-lg shadow-2xl relative">
             <h3 className="text-amber-500 font-extrabold text-base tracking-widest mb-4">
-              UPDATE ACTIVE RECORD (ADMIN ONLY)
+              UPDATE TABLE RECORD (ADMIN ONLY)
             </h3>
             
             <div className="space-y-4 text-xs">
@@ -209,8 +176,8 @@ export default function Dashboard() {
 
             <div className="flex justify-end gap-3 mt-6">
               <button onClick={() => setIsModalOpen(false)} className="bg-zinc-800 text-zinc-300 px-5 py-2.5 rounded-xl text-xs font-bold">CANCEL</button>
-              <button onClick={handleSaveChanges} disabled={loading} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold">
-                {loading ? "SAVING..." : "SAVE CHANGES"}
+              <button onClick={handleSaveChanges} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold">
+                SAVE CHANGES
               </button>
             </div>
           </div>
