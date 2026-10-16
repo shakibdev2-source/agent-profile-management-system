@@ -13,4 +13,4 @@
 </p>
 
 
-- **DoD-Standard Secure Shredding:** Department of Defense (DoD 5220.22-M) multi-pass overwrite protocol for permanently wiping sensitive operative data.
+- **Tactical Biometric Visualizers:** Integrated UI mockups featuring facial recognition matrices and interactive security clearance grid scanners.
