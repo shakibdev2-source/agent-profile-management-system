@@ -1,18 +1,6 @@
-
-#  SECURE_NET
-> **Advanced Cyber-Espionage Intelligence & Operative Dossier Management System**
-
-<!-- ████████████████████████████████████████████████████████████
-     SECURELOCKER ULTRA — ADVANCED README
-     Replace YOUR_USERNAME with your actual GitHub username
-████████████████████████████████████████████████████████████ -->
-
-<div align="center">
-
-<!-- ╔══════════════════════════════════════════════════════════╗
-     ║  ANIMATED HEADER BANNER                                ║
-     ╚══════════════════════════════════════════════════════════╝ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,30:0f2027,60:203a43,100:2c5364&height=230&section=header&text=SecureLocker%20Ultra&fontSize=65&fontColor=38BDF8&animation=fadeIn&fontAlignY=45&desc=Advanced+Cyber-Espionage+Intelligence+%26+Operative+Dossier+Management+System&descAlignY=68&descSize=13&descColor=94a3b8&stroke=38BDF8&strokeWidth=1" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=24&duration=3500&pause=1200&color=38BDF8&center=true&vCenter=true&width=850&height=50&lines=🚀+Project+is+under+active+development!;🔄+Continuous+updates+and+improvements+every+day!;✨+New+features+and+security+upgrades+coming+soon!" alt="Development Typing Animation" />
+</p>
 
 <!-- TYPING ANIMATION LINE 1 -->
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=650&height=38&lines=AES-256-CBC+%2B+HMAC-SHA256+%2B+PBKDF2;Next.js+14+%2B+Node.js+%2B+Express+%2B+MySQL;Two-Factor+KeyFile+%2B+Decoy+Mode;Military-Grade+File+Encryption+Platform;Role-Based+Access+Control+%28RBAC%29" alt="Typing" />
