@@ -4,7 +4,6 @@
 
 
 
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shakibdev2-source&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
