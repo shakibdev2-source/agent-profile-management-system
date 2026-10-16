@@ -7,6 +7,16 @@ A secure, role-based agent and target profile management system built for classi
 
 
 <p align="center">
+  <img src="https://img.shields.io/badge/BUILD-SUCCESS-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build Status" />
+  <img src="https://img.shields.io/badge/MAINTENANCE-ACTIVE-blue?style=for-the-badge&logo=git&logoColor=white" alt="Maintenance" />
+  <img src="https://img.shields.io/badge/REALTIME-TRACKING-orange?style=for-the-badge&logo=socket.io&logoColor=white" alt="Realtime Tracking" />
+  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Operational" />
+</p>
+
+
+
+
+<p align="center">
   <img src="https://img.shields.io/badge/STATUS-ACTIVE%20⚡-success?style=for-the-badge&logo=git&logoColor=white&color=2ea44f" alt="Status" />
   <img src="https://img.shields.io/badge/NEXT.JS-14.1-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/TAILWIND-CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
