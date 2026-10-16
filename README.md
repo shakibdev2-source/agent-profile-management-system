@@ -11,3 +11,9 @@
 <p align="center">
   © 2026 <b>SECURE_NET Intelligence Operations</b>. Classified & All Rights Reserved.
 </p>
+
+
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00FF66&center=true&vCenter=true&repeat=true&width=900&height=50&lines=git+add+.;git+commit+-m+%22🚀+Deploying+Advanced+Security+Modules%22;git+push+origin+main" alt="Coding Animation" />
+</p>
