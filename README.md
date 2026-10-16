@@ -1,4 +1,8 @@
 
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source
+&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=94a3b8&ring_color=38BDF8" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shakibdev2-source
+&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&text_color=94a3b8&langs_count=8" />
 # Agent-profile-management-system
 A secure, role-based agent and target profile management system built for classified operations with advanced access control and real-time tracking.
 
