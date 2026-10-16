@@ -6,13 +6,15 @@ A secure, role-based agent and target profile management system built for classi
 > **Advanced Cyber-Espionage Intelligence & Operative Dossier Management System**
 
 
----<p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=git&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/badge/Next.js-14.1-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.0-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-API-lightgrey?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20⚡-success?style=for-the-badge&logo=git&logoColor=white&color=2ea44f" alt="Status" />
+  <img src="https://img.shields.io/badge/NEXT.JS-14.1-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/TAILWIND-CSS-38BDF8?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/NODE.JS-BACKEND-green?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/EXPRESS.JS-API-lightgrey?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MYSQL-DATABASE-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SECURITY-AES--256-blue?style=for-the-badge&logo=shields.io&logoColor=white" alt="Security" />
+  <img src="https://img.shields.io/badge/AUTH-RBAC-orange?style=for-the-badge&logo=json-web-tokens&logoColor=white" alt="RBAC Auth" />
 </p>
 ---
 
