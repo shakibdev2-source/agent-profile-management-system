@@ -33,7 +33,7 @@ export default function Dashboard() {
           });
         }
       })
-      .catch((err) => console.log("Database connection error or backend offline:", err));
+      .catch((err) => console.log("Database offline or waiting for connection:", err));
   }, []);
 
   const handleInputChange = (e) => {
@@ -56,7 +56,7 @@ export default function Dashboard() {
       })
       .catch((err) => {
         setLoading(false);
-        alert("Failed to update database.");
+        alert("Failed to sync changes with MySQL Database.");
         setIsModalOpen(false);
       });
   };
@@ -91,6 +91,23 @@ export default function Dashboard() {
       </header>
 
       <main className="relative z-10 max-w-5xl w-full mx-auto p-4 md:p-8 my-6">
+        
+        <div className="mb-6 bg-gradient-to-r from-red-950/40 via-black to-zinc-950 border border-red-900/50 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4 backdrop-blur-md shadow-lg">
+          <div className="flex items-center gap-3">
+            <div className="w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+            <div>
+              <p className="text-[10px] text-zinc-400 tracking-widest uppercase">GLOBAL THREAT ASSESSMENT</p>
+              <p className="text-red-400 font-bold tracking-widest text-sm">ALPHA-CRITICAL</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] text-zinc-500">ENCRYPTION: AES-256-GCM</span>
+            <span className="bg-emerald-950/80 text-emerald-400 border border-emerald-800 text-[10px] px-2.5 py-1 rounded font-bold tracking-wider">
+              SECURE
+            </span>
+          </div>
+        </div>
+
         <nav className="flex flex-wrap gap-2 mb-8 border-b border-zinc-800 pb-4">
           <button 
             onClick={() => setActiveTab("identity")} 
@@ -128,34 +145,50 @@ export default function Dashboard() {
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black/85 backdrop-blur-md flex justify-center items-center p-4">
-          <div className="bg-[#121217] border border-amber-500/60 rounded-2xl p-6 md:p-8 w-full max-w-lg shadow-2xl relative">
+          <div className="bg-[#121217] border border-amber-500/60 rounded-2xl p-6 md:p-8 w-full max-w-2xl shadow-2xl relative max-h-[90vh] overflow-y-auto">
             <h3 className="text-amber-500 font-extrabold text-base tracking-widest mb-4">
-              UPDATE DATABASE RECORD (ADMIN ONLY)
+              COMMIT ALL EDITS TO MYSQL DATABASE (ADMIN PERMISSION)
             </h3>
             
-            <div className="space-y-4 text-xs">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
               <div>
                 <label className="text-zinc-400">Full Name:</label>
-                <input type="text" name="full_name" value={formData.full_name || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="full_name" value={formData.full_name || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
+              </div>
+              <div>
+                <label className="text-zinc-400">Nick Name (Alias):</label>
+                <input type="text" name="nick_name" value={formData.nick_name || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
+              </div>
+              <div>
+                <label className="text-zinc-400">Profile Picture URL:</label>
+                <input type="text" name="profile_picture" value={formData.profile_picture || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Rank:</label>
-                <input type="text" name="rank" value={formData.rank || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="rank" value={formData.rank || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Specialization:</label>
-                <input type="text" name="specialization" value={formData.specialization || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="specialization" value={formData.specialization || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
               </div>
               <div>
                 <label className="text-zinc-400">Field Status:</label>
-                <input type="text" name="field_status" value={formData.field_status || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2.5 text-white mt-1"/>
+                <input type="text" name="field_status" value={formData.field_status || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
+              </div>
+              <div>
+                <label className="text-zinc-400">Last Known Location:</label>
+                <input type="text" name="last_known_location" value={formData.last_known_location || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
+              </div>
+              <div>
+                <label className="text-zinc-400">Psych Evaluation:</label>
+                <input type="text" name="psych_evaluation" value={formData.psych_evaluation || ""} onChange={handleInputChange} className="w-full bg-black/80 border border-zinc-700 rounded p-2 text-white mt-1"/>
               </div>
             </div>
 
             <div className="flex justify-end gap-3 mt-6">
               <button onClick={() => setIsModalOpen(false)} className="bg-zinc-800 text-zinc-300 px-5 py-2.5 rounded-xl text-xs font-bold">CANCEL</button>
-              <button onClick={handleSaveChanges} disabled={loading} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold">
-                {loading ? "SAVING..." : "SAVE TO DATABASE"}
+              <button onClick={handleSaveChanges} disabled={loading} className="bg-amber-500 text-black px-6 py-2.5 rounded-xl text-xs font-extrabold shadow-lg">
+                {loading ? "SAVING..." : "COMMIT TO DATABASE"}
               </button>
             </div>
           </div>
