@@ -7,10 +7,10 @@ A secure, role-based agent and target profile management system built for classi
 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BUILD-SUCCESS-2ea44f?style=for-the-badge&logo=githubactions&logoColor=white" alt="Build Status" />
-  <img src="https://img.shields.io/badge/MAINTENANCE-ACTIVE-blue?style=for-the-badge&logo=git&logoColor=white" alt="Maintenance" />
-  <img src="https://img.shields.io/badge/REALTIME-TRACKING-orange?style=for-the-badge&logo=socket.io&logoColor=white" alt="Realtime Tracking" />
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Operational" />
+  <img src="https://img.shields.io/badge/PROJECT-IN%20PROGRESS-yellow?style=for-the-badge&logo=git&logoColor=white&color=ffb100" alt="Project In Progress" />
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-blue?style=for-the-badge&logo=githubactions&logoColor=white" alt="Active Development" />
+  <img src="https://img.shields.io/badge/UPDATES-CONTINUOUSLY-orange?style=for-the-badge&logo=codeforces&logoColor=white" alt="Continuous Updates" />
+  <img src="https://img.shields.io/badge/BUILD-MAINTENANCE-success?style=for-the-badge&logo=statuspage&logoColor=white" alt="Build Maintenance" />
 </p>
 
 
