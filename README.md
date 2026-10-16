@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0d1117,30:0f2027,60:203a43,100:2c5364&height=230&section=header&text=SecureLocker%20Ultra&fontSize=65&fontColor=38BDF8&animation=fadeIn&fontAlignY=45&desc=Advanced+Cyber-Espionage+Intelligence+%26+Operative+Dossier+Management+System&descAlignY=68&descSize=13&descColor=94a3b8&stroke=38BDF8&strokeWidth=1" />
+
 # Agent-profile-management-system
 A secure, role-based agent and target profile management system built for classified operations with advanced access control and real-time tracking.
 
@@ -56,8 +56,6 @@ A secure, role-based agent and target profile management system built for classi
 </p>
 
 ## 📊 GitHub Stats
-
-<!-- ⚠️ Replace YOUR_USERNAME below with your GitHub username -->
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source
 &show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDF8&icon_color=38BDF8&text_color=94a3b8&ring_color=38BDF8" />
