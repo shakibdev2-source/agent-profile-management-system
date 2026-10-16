@@ -14,5 +14,5 @@
 
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,mysql,git,github,docker,vscode&theme=dark" alt="Tech Stack Icons" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shakibdev2-source&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
 </p>
