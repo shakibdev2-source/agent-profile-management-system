@@ -1,8 +1,8 @@
-# agent-profile-management-system
+# Agent-profile-management-system
 A secure, role-based agent and target profile management system built for classified operations with advanced access control and real-time tracking.
 
 
-# 🛡️ SECURE_NET // PHANTOM UNIT E.W.U.
+#  SECURE_NET
 > **Advanced Cyber-Espionage Intelligence & Operative Dossier Management System**
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.1.0-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
