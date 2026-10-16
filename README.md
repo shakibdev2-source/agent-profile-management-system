@@ -4,5 +4,10 @@
 
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://img.shields.io/badge/Total%20Stars%20Earned-197-yellow?style=for-the-badge&logo=star&logoColor=white" />
+  <img src="https://img.shields.io/badge/Total%20Commits-241-blue?style=for-the-badge&logo=git&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakibdev2-source&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 </p>
