@@ -6,22 +6,8 @@
 
 ---
 
-## 🤝 Contributing
+---
 
-<details>
-<summary>💻 **Contribution Guide**</summary>
-
-```bash
-# 1. Fork the Repository
-
-# 2. Clone your fork
-git clone [https://github.com/shakibdev2-source/agent-profile-management-system.git](https://github.com/shakibdev2-source/agent-profile-management-system.git)
-
-# 3. Create a feature branch
-git checkout -b feat/your-amazing-feature
-
-# 4. Commit your changes
-git commit -m "feat: add advanced intelligence module"
-
-# 5. Push and open a Pull Request
-git push origin feat/your-amazing-feature
+<p align="center">
+  © 2026 <b>SECURE_NET Intelligence Operations</b>. Classified & All Rights Reserved.
+</p>
